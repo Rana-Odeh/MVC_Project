@@ -1,3 +1,12 @@
+wwwroot\admin\css\adminlte.css
+wwwroot\admin\css\adminlte.css.map
+wwwroot\admin\imags\AdminLTELogo.png
+wwwroot\admin\imags\user1-128x128.jpg
+wwwroot\admin\imags\user2-160x160.jpg
+wwwroot\admin\imags\user3-128x128.jpg
+wwwroot\admin\imags\user8-128x128.jpg
+wwwroot\admin\js\adminlte.js
+wwwroot\admin\js\adminlte.js.map
 wwwroot\css\site.css
 wwwroot\css\styles.css
 wwwroot\favicon.ico
@@ -127,3 +136,7 @@ C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\lib\
 C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\css\styles.css
 C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\js\scripts.js
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\admin\css\adminlte.css
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\admin\css\adminlte.css.map
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\admin\js\adminlte.js
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\wwwroot\admin\js\adminlte.js.map

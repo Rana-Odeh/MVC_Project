@@ -341,3 +341,7 @@ C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\bin\Debug\ne
 C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\obj\Debug\net10.0\Project_MVC.sourcelink.json
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\obj\Debug\net10.0\compressed\evwuxsd9vh-{0}-3w7jejt5b1-3w7jejt5b1.gz
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\obj\Debug\net10.0\compressed\bkh8ktiulz-{0}-1za78g898y-1za78g898y.gz
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\obj\Debug\net10.0\compressed\0at773fkhk-{0}-vtm9dvzpet-vtm9dvzpet.gz
+C:\Users\centrinoLaptop\Desktop\Asp.net\MVC\Project_MVC\Project_MVC\obj\Debug\net10.0\compressed\iyquqc08fp-{0}-jmgwmyfb49-jmgwmyfb49.gz

@@ -12,7 +12,12 @@ namespace Project_MVC.data
 
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server = DESKTOP-DK2469P; Database=MVC_Project;TrustServerCertificate = True;Trusted_Connection=True");
+            // database for production
+            optionsBuilder.UseSqlServer("Server = db39201.public.databaseasp.net; Database=db39201; User Id = db39201; Password=W_n7?5Xqg-3Q; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True; ");
+
+                //database for dev
+ 
+             //optionsBuilder.UseSqlServer("Server = DESKTOP-DK2469P; Database=MVC_Project;TrustServerCertificate = True;Trusted_Connection=True");
         }
     }
 }
