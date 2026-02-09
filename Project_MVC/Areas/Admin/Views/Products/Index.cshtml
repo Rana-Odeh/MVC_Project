@@ -1,0 +1,61 @@
+﻿@model List<Product>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">
+        No Product Found
+    </div>
+}
+
+else
+{
+    <div class="card-body">
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="width: 10px" scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Rate</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr class="align-middle">
+                        <td>@product.Id</td>
+                        <td>@product.Name</td>
+                        <td>@product.Rate</td>
+                        <td>@product.Price</td>
+                        <td>@product.Description</td>
+                       
+                        <td>
+                            <img src ="\css\images\@product.Image" width="60"  />
+                          
+                        </td>
+                        <td>@product.Category.Name</td>
+                        <td>
+                            <a class="btn btn-danger" asp-action="Remove" asp-controller="Products" asp-route-id="@product.Id"> Delete</a>
+                           
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- Pagination -->
+    <div class="card-footer clearfix">
+        <ul class="pagination pagination-sm m-0 float-end">
+            <li class="page-item"><a class="page-link" href="#">«</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">»</a></li>
+        </ul>
+    </div>
+}

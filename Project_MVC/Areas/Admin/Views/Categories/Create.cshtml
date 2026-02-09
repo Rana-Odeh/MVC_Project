@@ -1,0 +1,26 @@
+﻿
+@model Category
+
+<!DOCTYPE html>
+    <html>
+
+    <body>
+    <form asp-action="Store" asp-controller="Categories" method="post">
+        <div class="my-3">
+            <label asp-for="Name"  class="form-label"></label>
+            <input asp-for="Name" class="form-control" >
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <button class="btn btn-success mt-3">
+            Save
+        </button>
+
+    </form>
+
+    </body>
+    </html>
+@section  scripts{
+   
+<script src="~/lib/jquery/dist/jquery.slim.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -11,7 +11,7 @@ using Project_MVC.data;
 namespace Project_MVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260126183727_initial")]
+    [Migration("20260127212103_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -23,6 +23,23 @@ namespace Project_MVC.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Project_MVC.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
 #pragma warning restore 612, 618
         }
     }
